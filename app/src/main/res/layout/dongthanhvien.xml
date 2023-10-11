@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="360dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:id="@+id/tvten"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nam sinh"
+        android:id="@+id/tvnamsinh"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cccd"
+        android:id="@+id/tvcccd"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgxoatv"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:src="@drawable/baseline_delete_forever_24"/>
+
+    </LinearLayout>
+
+</LinearLayout>

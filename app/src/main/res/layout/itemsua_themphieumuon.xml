@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edmaPM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Phiếu mượn"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:id="@+id/spTV"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:minHeight="48dp" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:id="@+id/spS"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:minHeight="48dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvngayyy"
+        android:layout_height="wrap_content"
+        android:text="Ngày: "
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvtienthueee"
+        android:layout_height="wrap_content"
+        android:text="Tiền thuê: "
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"/>
+
+    <CheckBox
+        android:id="@+id/chktrangthai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Đã Trả Sách" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnLuuPm"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/deginbtn"
+            android:drawableStart="@drawable/baseline_save_24"
+            android:text="Lưu"
+            tools:ignore="TextSizeCheck" />
+
+        <Button
+            android:id="@+id/btnhuypm"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/deginbtn"
+            android:drawableStart="@drawable/baseline_delete_forever_24"
+            android:text="Hủy"
+            tools:ignore="TextSizeCheck" />
+
+
+    </LinearLayout>
+</LinearLayout>
